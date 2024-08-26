@@ -1,0 +1,11 @@
+void formulaire(FILE *fic);
+void choix();
+void connecter(FILE *fic);
+void recherche(FILE *fic,char *nom,char *mdp);
+void getip(char *chaine);
+char *allocation();
+void traitement(char *chaine);
+void condition_vraie(int a);
+void condition_faux(FILE *fic,int a,int b,int c,int d,char *chaine);
+void deconnect();
+void execution(FILE *fic,int a,int b,int c,int d,char *chaine);
